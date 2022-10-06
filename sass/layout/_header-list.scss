@@ -1,0 +1,43 @@
+.header-list {
+    display: flex;
+    margin-left: auto;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-list .header-link {
+    display: flex;
+    align-self: center;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    fill: var(--primary-text-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link.emale {
+    margin-right: 30px;
+}
+
+.header-envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.header-smartphone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.header-list .header-link:hover,
+.header-list .header-link:focus {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+}
