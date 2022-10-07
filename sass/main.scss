@@ -1,9 +1,11 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import './utils/placeholders';
 
 @import './base/body';
 @import './base/common';
 @import './base/container';
+@import './base/main-nav-container';
 @import './base/section';
 
 @import './components/logo';
@@ -12,7 +14,7 @@
 @import './components/section-title';
 
 @import './layout/page-header';
-@import './layout/main-nav';
+@import './layout/site-nav';
 @import './layout/header-list';
 @import './layout/hero';
 @import './layout/feature-list';

@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.header-list .header-link {
+.header-list__link {
     display: flex;
     align-self: center;
     color: var(--primary-text-color);
@@ -18,26 +18,27 @@
     fill: var(--primary-text-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        color: var(--accent-color);
+    }
 }
 
-.header-link.emale {
+.header-list__emale {
     margin-right: 30px;
 }
 
-.header-envelope {
+.header-list__link-envelope {
     width: 16px;
     height: 12px;
     margin-right: 10px;
 }
 
-.header-smartphone {
+.header-list__link-smartphone {
     width: 10px;
     height: 16px;
     margin-right: 10px;
 }
 
-.header-list .header-link:hover,
-.header-list .header-link:focus {
-    fill: var(--accent-color);
-    color: var(--accent-color);
-}

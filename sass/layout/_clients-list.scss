@@ -5,7 +5,7 @@
     justify-content: space-between;
 }
 
-.clients-link {
+.clients-list__link {
     display: block;
     fill: #AFB1B8;
     border: 1px solid #AFB1B8;
@@ -14,17 +14,18 @@
     margin: 0;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+        fill: var(--accent-color);
+    }
 }
 
-.clients-icon {
+.clients-list__icon {
     display: block;
     width: 170px;
     height: 92px;
     padding: 16px 32px;
 }
 
-.clients-link:hover,
-.clients-link:focus {
-    border: 1px solid var(--accent-color);
-    fill: var(--accent-color);
-}

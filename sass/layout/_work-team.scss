@@ -4,11 +4,11 @@
     padding-left: 0;
 }
 
-.work-team .card {
+.work-team__card {
     display: block;
 }
 
-.description-foto {
+.work-team__foto {
     display: block;
     width: 270px;
     height: 168px;
@@ -20,15 +20,15 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.work-team .item+.item {
+.work-team__item + .work-team__item {
     margin-left: 30px;
 }
 
-.section.foto {
+.section_color_grey {
     background-color: #F5F4FA;
 }
 
-.title-foto {
+.work-team__title-foto {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -37,7 +37,7 @@
     margin-bottom: 10px;
 }
 
-.text-foto {
+.work-team__text-foto {
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -54,7 +54,7 @@
     list-style: none;
 }
 
-.social-link {
+.social-links__link {
     display: block;
     padding: 11px 11px;
     margin: 0 10px 0 0;
@@ -65,19 +65,20 @@
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+        fill: var(--primary-white-color);
+    }
 }
 
-.social-link.linkedin {
+.social-links__link_margin {
     margin-right: 0;
 }
 
-.link-icon {
+.social-links__icon {
     width: 20px;
     height: 20px;
 }
 
-.social-link:hover,
-.social-link:focus {
-    background-color: #2196F3;
-    fill: var(--primary-white-color);
-}

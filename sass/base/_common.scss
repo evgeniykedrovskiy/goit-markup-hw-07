@@ -19,6 +19,23 @@ p {
     margin: 0;
 }
 
-ul {
+ul,
+ol {
     list-style: none;
+}
+
+img {
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
 }

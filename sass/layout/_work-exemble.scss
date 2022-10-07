@@ -3,18 +3,18 @@
     padding-left: 0;
 }
 
-.work-exemble .item+.item {
+.work-exemble__item + .work-exemble__item {
     margin-left: 30px;
 }
 
-.work-thumb {
+.work-exemble__thumb {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: flex-end;
 }
 
-.section-subtitle {
+.work-exemble__subtitle {
     position: absolute;
     text-transform: uppercase;
     bottom: 27px;
@@ -30,7 +30,7 @@
     color: #FFFFFF;
 }
 
-.work-description {
+.work-exemble__description {
     display: block;
     position: absolute;
 
